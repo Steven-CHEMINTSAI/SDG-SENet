@@ -1,0 +1,24 @@
+{
+  "id": "00000094",
+  "sr": 16000,
+  "snr_db": 15,
+  "retain": {
+    "class": "cat",
+    "percent": 25,
+    "scale": 0.25
+  },
+  "nonretained": [
+    "pouring_water",
+    "snoring"
+  ],
+  "files": {
+    "speech": "E:\\raw_data\\LJSpeech-1.1\\wavs\\LJ031-0037.wav",
+    "retained": "E:\\raw_data\\gen35\\cat\\ComfyUI_00013_.wav",
+    "nonretained": [
+      "pouring_water",
+      "snoring"
+    ]
+  },
+  "prompt": "Retain a hint of cat.",
+  "prompt_tokens": 7
+}

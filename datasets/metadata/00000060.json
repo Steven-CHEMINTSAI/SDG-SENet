@@ -1,0 +1,22 @@
+{
+  "id": "00000060",
+  "sr": 16000,
+  "snr_db": 5,
+  "retain": {
+    "class": "siren",
+    "percent": 25,
+    "scale": 0.25
+  },
+  "nonretained": [
+    "thunderstorm"
+  ],
+  "files": {
+    "speech": "E:\\raw_data\\LJSpeech-1.1\\wavs\\LJ047-0103.wav",
+    "retained": "E:\\raw_data\\gen35\\siren\\gen_00075_.wav",
+    "nonretained": [
+      "thunderstorm"
+    ]
+  },
+  "prompt": "Keep a little siren.",
+  "prompt_tokens": 6
+}

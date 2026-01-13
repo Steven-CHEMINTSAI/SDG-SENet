@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AudioX Event Audio & SDG-SENet Denoising Showcase</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg"></div>
+  <header class="hero">
+    <p class="eyebrow">AudioX + SDG-SENet</p>
+    <h1>AudioX Event Audio & SDG-SENet Denoising Showcase</h1>
+    <div class="hero-actions">
+      <a class="btn" href="#datasets">View datasets</a>
+      <a class="btn ghost" href="#demo">View demos</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="datasets" class="section">
+      <div class="section-header">
+        <h2>Datasets</h2>
+        <p>AudioX-mixed datasets with input / clean / output pairs.</p>
+      </div>
+      <div id="datasets-grid" class="grid"></div>
+    </section>
+
+    <section id="event-sound" class="section">
+      <div class="section-header">
+        <h2>Event Sounds</h2>
+        <p>AudioX-generated event sounds across 35 classes.</p>
+      </div>
+      <div id="event-grid" class="grid"></div>
+    </section>
+
+    <section id="demo" class="section">
+      <div class="section-header">
+        <h2>Denoising Demo</h2>
+        <p>SDG-SENet denoising results: noisy / est / target.</p>
+      </div>
+      <div id="demo-grid" class="grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>To add more audio or copy, update the data list in <code>app.js</code>.</p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
